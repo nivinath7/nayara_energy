@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
-
-client = OpenAI(api_key="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")
+new_key = "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"
+client = OpenAI(api_key=new_key)
 from datetime import datetime
 import base64
 
